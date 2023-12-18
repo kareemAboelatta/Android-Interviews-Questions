@@ -6,6 +6,7 @@ The `Service` class is the base class for all services. When you extend this cla
 The Android framework also provides the `IntentService` subclass of `Service` that uses a worker thread to handle all of the start requests, one at a time. `IntentService` is very similura to queue where it handles request (intents) from clients. Client can send the request to `IntentService` by using command - `Context.startService(Intent)`. For implements `IntentService` you should extend IntentService class and implements method - `onHandleIntent(Intent)`
 
 Using `IntentService` is not recommended for new apps as it will not work well starting with Android 8 Oreo, due to the introduction of Background execution limits. Moreover, it's deprecated starting with Android 11. You can use `JobIntentService` as a replacement for `IntentService` that is compatible with newer versions of Android.
+- `JobIntentService` This class has been deprecated too in favor of the Android Jetpack WorkManager library, which makes it easy to schedule deferrable, asynchronous tasks that are expected to run even if the app exits or the device restarts.
 
 | `Service`  | `IntentService`  |
 |---|---|
