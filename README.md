@@ -19,7 +19,8 @@ You can find complete list of questions on the [wiki page](https://github.com/Ki
 [Patterns](https://github.com/Kirchhoff-/Android-Interview-Questions/tree/master/Patterns): 28  
 [Libraries](https://github.com/Kirchhoff-/Android-Interview-Questions/tree/master/Libraries): 12
 
-[Android WorkManager: Popular Interview Questions and Answers](https://medium.com/thefreshwrites/mastering-android-workmanager-popular-interview-questions-and-answers-361ac542733b)
+[Android WorkManager: Popular Interview Questions and Answers](https://medium.com/thefreshwrites/mastering-android-workmanager-popular-interview-questions-and-answers-361ac542733b) 
+
 [Top Android Room Database Interview Questions ](https://medium.com/thefreshwrites/top-android-room-database-interview-questions-and-answers-with-code-examples-e4ef3efb6643)
 
 
